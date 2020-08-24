@@ -51,7 +51,7 @@ python demo.py
 +-----------------------+
 ```
 
-#### To know how this Algorithm works, read this blog
+#### To know how this Algorithm works, read this article
 [Sudoku and Backtracking](https://hackernoon.com/sudoku-and-backtracking-6613d33229af)
 
 #### To visualize the working of this Algorithm, visit this Github page
