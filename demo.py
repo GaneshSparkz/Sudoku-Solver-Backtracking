@@ -1,4 +1,4 @@
-from utils.sudoku import Sudoku
+from sudoku import Sudoku
 
 
 # initialize the 9x9 puzzle board
