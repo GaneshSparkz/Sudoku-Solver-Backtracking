@@ -1,5 +1,5 @@
 class Sudoku:
-    def __init__(self, board, n_rows, n_cols):
+    def __init__(self, board, n_rows=9, n_cols=9):
         self.board = board
         self.n_rows = n_rows
         self.n_cols = n_cols
