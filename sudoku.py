@@ -69,7 +69,7 @@ class Sudoku:
         # search for an empty cell
         empty_cell = self.find_empty()
 
-        # if there is no empty cell, puzzle is solved, return
+        # if there is no empty cell, puzzle is solved, return true
         if empty_cell is None:
             return True
         
@@ -84,4 +84,5 @@ class Sudoku:
                     return True
                 self.board[row][col] = 0
         
+        # no valid solution, return false
         return False
